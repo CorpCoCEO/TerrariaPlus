@@ -13,7 +13,7 @@ namespace TerrariaPlus.Items.Weapons
 		}
 		public override void SetDefaults()
 		{
-			item.damage = 12;
+			item.damage = 13;
 			item.ranged = true;
 			item.width = 38;
 			item.height = 28;
