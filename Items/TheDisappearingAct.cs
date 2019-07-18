@@ -23,7 +23,11 @@ namespace TerrariaPlus.Items
 
 		public override void UpdateAccessory(Player player, bool hideVisual)
 		{
-      
+			//if statement concerning if player does not have the debuff
+			player.endurance = 1;
+			//if statement concerning getting hit
+      			player.AddBuff(mod.BuffType("DisappearingRecharge"), 3600);
+			player.AddBuff(mod.BuffType("Invisibility"), 300);
 		}
 	}
 }
