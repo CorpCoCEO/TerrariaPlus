@@ -29,5 +29,24 @@ namespace TerrariaPlus.Items
       			player.AddBuff(mod.BuffType("DisappearingRecharge"), 3600);
 			player.AddBuff(mod.BuffType("Invisibility"), 300);
 		}
+		
+		public override void AddRecipes()
+		{
+			ModRecipe goldRecipe = new ModRecipe(mod);
+			goldRecipe.AddIngredient(ItemID.GoldWatch);
+			goldRecipe.AddIngredient(ItemID.Glass, 5);
+			goldRecipe.AddIngredient(ItemID.Bone, 5);
+			goldRecipe.AddTile(TileID.Anvils);
+			goldRecipe.SetResult(this);
+			goldRecipe.AddRecipe();
+			
+			ModRecipe platinumRecipe = new ModRecipe(mod);
+			platinumRecipe.AddIngredient(ItemID.PlatinumWatch);
+			platinumRecipe.AddIngredient(ItemID.Glass, 5);
+			platinumRecipe.AddIngredient(ItemID.Bone, 5);
+			platinumRecipe.AddTile(TileID.Anvils);
+			platinumRecipe.SetResult(this);
+			platinumRecipe.AddRecipe();
+		}
 	}
 }
