@@ -5,6 +5,7 @@ namespace TerrariaPlus
 {
 	class TerrariaPlus : Mod
 	{
+		//whatup, it me
 		public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(this);
