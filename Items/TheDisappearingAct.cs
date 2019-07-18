@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace TerrariaPlus.Items
 {
-	public class AmuletOfInvincibility : ModItem
+	public class TheDisappearingAct : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
