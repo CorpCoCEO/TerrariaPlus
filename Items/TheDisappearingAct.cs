@@ -26,8 +26,8 @@ namespace TerrariaPlus.Items
 			//if statement concerning if player does not have the debuff
 			player.endurance = 1;
 			//if statement concerning getting hit
-      			player.AddBuff(mod.BuffType("DisappearingRecharge"), 3600);
-			player.AddBuff(mod.BuffType("Invisibility"), 300);
+      			//player.AddBuff(mod.BuffType("DisappearingRecharge"), 3600);
+			//player.AddBuff(mod.BuffType("Invisibility"), 300);
 		}
 		
 		public override void AddRecipes()
