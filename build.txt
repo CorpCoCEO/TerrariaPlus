@@ -1,0 +1,3 @@
+author = CorpCo
+version = 0.1
+displayName = Terraria Plus+
